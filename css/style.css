@@ -1,12 +1,11 @@
-# Empty CSS file for your own CSS
 
-h4 {
+h3 {
 	text-align: center;
 	margin: 20px;
 }
 
 .row {
-	padding: 50px;
+	padding: 10px;
 }
 
 #header-row {
@@ -16,6 +15,32 @@ h4 {
 .context-text {
 	margin: 20px 0 20px 0;
 }
+
+section {
+	margin-top: 40px;
+}
+
+.center {
+	text-align: center;
+}
+
+
+/**
+*
+* Neighborhood Explantions
+*
+**/
+
+.hood {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.hood img {
+	width: 100%;
+	height: auto;
+}
+
 
 /**
 *
@@ -46,7 +71,8 @@ h4 {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	}
+}
+
 /**
 *
 * Cards
@@ -62,3 +88,28 @@ h4 {
 }
 
 
+/**
+*
+* Brands
+*
+**/
+
+#brands {
+	width: 90%;
+	margin: auto;
+}
+
+.brand {
+	margin-bottom: 60px;
+	display: block;
+	align-items: center; /* align vertical */
+	text-align: center;
+}
+
+.brand img {
+	width: 100%;
+	height: auto;
+	display: block;
+	max-height: 200px;
+	align-items: center; /* align vertical */
+}
